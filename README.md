@@ -125,9 +125,10 @@ Output:
 
 ## 📊 Example Visualization
 
-Qualitative prediction grid: "outputs/viz_val_grid.png"
+Qualitative prediction grid: 
 
----
+![Prediction grid](disaster-ai/outputs/viz_val_grid.png)
+
 
 📌 Recruiter Highlights
 
