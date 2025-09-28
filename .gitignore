@@ -1,0 +1,44 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+
+# Jupyter checkpoints
+.ipynb_checkpoints
+
+# Virtual environments
+.venv/
+env/
+venv/
+*.egg-info/
+
+# Logs
+*.log
+logs/
+
+# IDE configs
+.vscode/
+.idea/
+
+# Large datasets
+data/
+disaster-ai/data/
+
+# Model checkpoints
+checkpoints_multiclass*/
+*.pt
+*.pth
+
+# Outputs
+outputs/
+*.csv
+*.png
+
+# Environment files
+*.env
+.env

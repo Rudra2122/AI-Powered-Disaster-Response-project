@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "disaster-ai"
+version = "0.1.0"
+description = "AI-Powered Disaster Response & Resource Allocation"
+authors = [
+    { name = "Your Name", email = "your.email@example.com" }
+]
+readme = "README.md"
+license = { text = "MIT" }
+dependencies = [
+    "torch>=2.0.0",
+    "torchvision>=0.15.0",
+    "scikit-learn",
+    "pandas",
+    "numpy",
+    "Pillow",
+    "matplotlib",
+    "seaborn",
+    "tqdm",
+    "fastapi",
+    "uvicorn",
+    "nest_asyncio",
+    "jupyter"
+]
+requires-python = ">=3.8"

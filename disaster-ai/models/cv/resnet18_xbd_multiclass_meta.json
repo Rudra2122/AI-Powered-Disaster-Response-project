@@ -1,0 +1,19 @@
+{
+  "task": "multiclass_damage",
+  "classes": [
+    "no-damage",
+    "minor-damage",
+    "major-damage",
+    "destroyed"
+  ],
+  "img_size": 256,
+  "model": "resnet18",
+  "checkpoint": "resnet18_multiclass.pt",
+  "class_weights": [
+    0.5319135785102844,
+    1.602149248123169,
+    1.076748013496399,
+    0.7891892194747925
+  ],
+  "val_best_acc": 0.0
+}
