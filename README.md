@@ -125,9 +125,7 @@ Output:
 
 ## 📊 Example Visualization
 
-Prediction grid:
-
-
+Qualitative prediction grid: "outputs/viz_val_grid.png"
 
 ---
 
