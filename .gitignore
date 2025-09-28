@@ -30,9 +30,9 @@ data/
 disaster-ai/data/
 
 # Model checkpoints
-checkpoints_multiclass*/
-*.pt
-*.pth
+#checkpoints_multiclass*/
+#*.pt
+#*.pth
 
 # Outputs
 outputs/
