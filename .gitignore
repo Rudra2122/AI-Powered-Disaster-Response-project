@@ -46,3 +46,7 @@ outputs/
 # Environment files
 *.env
 .env
+
+# Ignore generated dirs
+/disaster-ai/data/
+/disaster-ai/models/
