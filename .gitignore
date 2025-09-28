@@ -17,6 +17,10 @@ env/
 venv/
 *.egg-info/
 
+# Ignore data and models inside disaster-ai
+disaster-ai/data/
+disaster-ai/models/
+
 # Logs
 *.log
 logs/
