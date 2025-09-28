@@ -121,13 +121,13 @@ Output:
 {"pred":"destroyed","conf":0.98}
 ```
 
----
 
-## 📊 Example Visualization
+📊 Example Visualization
 
-Qualitative prediction grid: 
+Qualitative prediction grid:
 
-![Prediction grid](disaster-ai/outputs/viz_val_grid.png)
+![Prediction grid](https://github.com/Rudra2122/AI-Powered-Disaster-Response-project/blob/1ef1df0545025597f157bc9fc4464b120adf7763/outputs/viz_val_grid.png?raw=true)
+
 
 
 📌 Recruiter Highlights
