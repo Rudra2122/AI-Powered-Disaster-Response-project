@@ -1,15 +1,15 @@
 🌍 AI-Powered Disaster Response & Resource Allocation
 
-> A deep learning pipeline for satellite-based disaster damage assessment, built using PyTorch, FastAPI, and Jupyter.
-> Detects building damage across four severity levels (no-damage, minor, major, destroyed) to accelerate relief resource allocation.
+* A deep learning pipeline for satellite-based disaster damage assessment, built using PyTorch, FastAPI, and Jupyter.
+* Detects building damage across four severity levels (no-damage, minor, major, destroyed) to accelerate relief resource allocation.
 
 
 🚀 Features
 
-Multiclass Damage Classification (4 classes)
-  Trained CNNs and Transformer-based backbones (ResNet-50, EfficientNet, ViT).
+* Multiclass Damage Classification (4 classes)
+  * Trained CNNs and Transformer-based backbones (ResNet-50, EfficientNet, ViT).
 
-Robust Training Pipeline
+* Robust Training Pipeline
 
   * WeightedRandomSampler + oversampling for imbalance
   * Label Smoothing Cross-Entropy + Focal Losss
@@ -98,13 +98,13 @@ This will:
 
 🔎 Inference
 
-** Option 1: Python script
+* Option 1: Python script
 
 ```bash
 python scripts/infer.py images/sample_post_disaster.png
 ```
 
-** Option 2: FastAPI microservice
+* Option 2: FastAPI microservice
 
 ```bash
 uvicorn scripts.app:app --reload --port 8000
@@ -127,7 +127,7 @@ Output:
 
 Prediction grid:
 
-![viz](outputs/viz_val_grid.png)
+
 
 ---
 
@@ -168,9 +168,8 @@ To make this repo enterprise-ready:
    * Explore self-supervised pretraining (SimCLR, BYOL) for domain adaptation.
    * Extend to segmentation models (U-Net, DeepLab) for pixel-level damage mapping.
 
----
 
-## 🧑‍💻 Author
+🧑‍💻 Author
 
 Developed by [Rudra Brahmbhatt]
 📫 [[rudra02122002@gmail.com](mailto:rudra02122002@gmail.com)] | [LinkedIn](https://linkedin.com/in/rudra2122/)
