@@ -30,23 +30,21 @@
 
   * Modular Jupyter notebooks for every step (setup, training, eval, visualization).
 
+## 📂 Repository Structure
 
-📂 Repository Structure
-
-
+```bash
 AI_Powered_Disaster_Response_&_Resource_Allocation/
+├── disaster-ai/
+│   ├── api/                # API service code
+│   ├── app/                # application scripts
+│   ├── configs/            # configs (YAML/JSON)
+│   ├── data/               # dataset
+│   ├── models/             # checkpoints
+│   ├── outputs/            # predictions, plots, CSVs
+│   ├── rl/                 # reinforcement learning experiments
+│   └── src/                # helper modules
 │
-├── disaster-ai/                
-│   ├── api/                     # API service code
-│   ├── app/                     # application scripts
-│   ├── configs/                 # configs (YAML/JSON)
-│   ├── data/                    #  dataset 
-│   ├── models/                  #  checkpoints
-│   ├── outputs/                 # predictions, plots, CSVs
-│   ├── rl/                      # reinforcement learning experiments
-│   └── src/                     # helper modules
-│
-├── notebooks/                   
+├── notebooks/
 │   ├── 01_setup_and_training.ipynb
 │   ├── step5_multiclass.ipynb
 │   ├── step7_multiclass_training.ipynb
@@ -54,11 +52,11 @@ AI_Powered_Disaster_Response_&_Resource_Allocation/
 │   ├── infer.ipynb
 │   └── ...
 │
-├── scripts/                     
-│   ├── infer.py                 # batch inference
-│   └── app.py                   # FastAPI server
+├── scripts/
+│   ├── infer.py            # batch inference
+│   └── app.py              # FastAPI server
 │
-├── outputs/                     
+├── outputs/
 │   ├── viz_val_grid.png
 │   ├── val_predictions.csv
 │   ├── batch_predictions.csv
@@ -66,9 +64,10 @@ AI_Powered_Disaster_Response_&_Resource_Allocation/
 │
 ├── requirements.txt
 ├── README.md
-└── .gitignore
+├── .gitignore
 ├── setup.cfg
 └── pyproject.toml
+```
 
 
 ⚙️ Installation
