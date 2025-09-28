@@ -36,7 +36,7 @@
 
 AI_Powered_Disaster_Response_&_Resource_Allocation/
 │
-├── disaster_ai/                
+├── disaster-ai/                
 │   ├── api/                     # API service code
 │   ├── app/                     # application scripts
 │   ├── configs/                 # configs (YAML/JSON)
