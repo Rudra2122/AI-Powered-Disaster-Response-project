@@ -171,5 +171,5 @@ To make this repo enterprise-ready:
 
 Developed by Rudra Brahmbhatt
 
-📫 [rudra02122002@gmail.com(mailto:rudra02122002@gmail.com)] | [LinkedIn](https://linkedin.com/in/rudra2122/)
+📫 [rudra02122002@gmail.com](mailto:rudra02122002@gmail.com) | [LinkedIn](https://linkedin.com/in/rudra2122/)
 
